@@ -5,7 +5,8 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: 'pomodoro', component: () => import('pages/Pomodoro.vue') }
+      { path: 'pomodoro', component: () => import('pages/Pomodoro.vue') },
+      { path: 'timers', component: () => import('pages/Timers.vue') }
     ]
   },
 
